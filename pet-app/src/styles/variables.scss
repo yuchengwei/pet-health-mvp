@@ -1,0 +1,47 @@
+// uni-app 样式变量
+
+// 主题色
+$primary-color: #4A90E2;
+$success-color: #52C41A;
+$warning-color: #FAAD14;
+$error-color: #FF4D4F;
+
+// 背景色
+$bg-color: #F5F5F5;
+$bg-white: #FFFFFF;
+$bg-mask: rgba(0, 0, 0, 0.5);
+
+// 文字色
+$text-primary: #333333;
+$text-secondary: #666666;
+$text-placeholder: #999999;
+$text-white: #FFFFFF;
+
+// 边框色
+$border-color: #E5E5E5;
+$border-light: #F0F0F0;
+
+// 间距
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+// 圆角
+$radius-sm: 8rpx;
+$radius-md: 12rpx;
+$radius-lg: 16rpx;
+$radius-full: 50%;
+
+// 字号
+$font-xs: 24rpx;
+$font-sm: 26rpx;
+$font-md: 28rpx;
+$font-lg: 32rpx;
+$font-xl: 36rpx;
+
+// 阴影
+$shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 8rpx 24rpx rgba(0, 0, 0, 0.12);

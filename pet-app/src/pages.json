@@ -1,0 +1,102 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "宠物健康+"
+      }
+    },
+    {
+      "path": "pages/community/community",
+      "style": {
+        "navigationBarTitleText": "社区"
+      }
+    },
+    {
+      "path": "pages/hospital/hospital",
+      "style": {
+        "navigationBarTitleText": "医院评价"
+      }
+    },
+    {
+      "path": "pages/qa/qa",
+      "style": {
+        "navigationBarTitleText": "健康问答"
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/pet/add",
+      "style": {
+        "navigationBarTitleText": "添加宠物"
+      }
+    },
+    {
+      "path": "pages/pet/detail",
+      "style": {
+        "navigationBarTitleText": "宠物档案"
+      }
+    },
+    {
+      "path": "pages/hospital/detail",
+      "style": {
+        "navigationBarTitleText": "医院详情"
+      }
+    },
+    {
+      "path": "pages/qa/detail",
+      "style": {
+        "navigationBarTitleText": "问答详情"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "宠物健康+",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4A90E2",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "static/tab-community.png",
+        "selectedIconPath": "static/tab-community-active.png"
+      },
+      {
+        "pagePath": "pages/hospital/hospital",
+        "text": "医院",
+        "iconPath": "static/tab-hospital.png",
+        "selectedIconPath": "static/tab-hospital-active.png"
+      },
+      {
+        "pagePath": "pages/qa/qa",
+        "text": "问答",
+        "iconPath": "static/tab-qa.png",
+        "selectedIconPath": "static/tab-qa-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "static/tab-profile.png",
+        "selectedIconPath": "static/tab-profile-active.png"
+      }
+    ]
+  }
+}
