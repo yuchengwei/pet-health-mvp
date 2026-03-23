@@ -68,5 +68,11 @@
     "uniStatistics": {  
         "enable": false
     },
-    "vueVersion" : "3"
+    "vueVersion" : "3",
+    "async" : {
+        "loading" : "AsyncLoading",
+        "error" : "AsyncError",
+        "delay" : 200,
+        "timeout" : 30000
+    }
 }
