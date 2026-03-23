@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pet/pet-list",
+    "pages/pet/pet-detail",
+    "pages/pet/pet-add",
+    "pages/pet/pet-edit",
+    "pages/hospital/hospital-list",
+    "pages/hospital/hospital-detail",
+    "pages/hospital/hospital-map",
+    "pages/community/community-index",
+    "pages/community/post-detail",
+    "pages/community/post-publish",
+    "pages/community/question-detail",
+    "pages/community/question-publish",
+    "pages/mine/mine",
+    "pages/mine/settings",
+    "pages/mine/consultation",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "宠物健康管理",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F8F9FA"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4A90D9",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/hospital/hospital-list",
+        "text": "医院",
+        "iconPath": "static/tabbar/hospital.png",
+        "selectedIconPath": "static/tabbar/hospital-active.png"
+      },
+      {
+        "pagePath": "pages/community/community-index",
+        "text": "社区",
+        "iconPath": "static/tabbar/community.png",
+        "selectedIconPath": "static/tabbar/community-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

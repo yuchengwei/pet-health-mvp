@@ -1,0 +1,23 @@
+{
+  "name": "pet-health-client",
+  "version": "1.0.0",
+  "description": "宠物健康管理+社区 微信小程序",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development",
+    "build": "cross-env NODE_ENV=production"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0-alpha",
+    "@dcloudio/uni-components": "^3.0.0",
+    "@dcloudio/uni-mp-weixin": "^3.0.0"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.8",
+    "@dcloudio/uni-cli-shared": "^3.0.0",
+    "@dcloudio/uni-stacktracey": "^3.0.0",
+    "@dcloudio/vite-plugin-uni": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "vite": "^5.0.0"
+  }
+}
